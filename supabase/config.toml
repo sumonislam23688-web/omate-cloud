@@ -1,0 +1,13 @@
+project_id = "omate-cloud-template"
+
+[functions.omate-memory-api]
+verify_jwt = true
+
+[functions.omate-memory-mcp]
+verify_jwt = false
+
+[functions.omate-resources-api]
+verify_jwt = false
+
+[functions.omate-context-window]
+verify_jwt = false
